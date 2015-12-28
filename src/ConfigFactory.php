@@ -10,6 +10,6 @@
  */
 class Pronamic_WP_Pay_Gateways_Mollie_IDealBasic_ConfigFactory extends Pronamic_WP_Pay_Gateways_IDealBasic_ConfigFactory {
 	public function __construct() {
-		parent::__construct( 'Pronamic_WP_Pay_Gateways_ING_IDealBasic_Config', 'Pronamic_WP_Pay_Gateways_Mollie_IDealBasic_TestConfig' );
+		parent::__construct( 'Pronamic_WP_Pay_Gateways_Mollie_IDealBasic_Config', 'Pronamic_WP_Pay_Gateways_Mollie_IDealBasic_TestConfig' );
 	}
 }

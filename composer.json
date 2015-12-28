@@ -44,11 +44,11 @@
 	"scripts": {
 		"post-install-cmd": [
 			"xrstf\\Composer52\\Generator::onPostInstallCmd",
-			"vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
+			"\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
 		],
 		"post-update-cmd": [
 			"xrstf\\Composer52\\Generator::onPostInstallCmd",
-			"vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
+			"\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
 		],
 		"post-autoload-dump": [
 			"xrstf\\Composer52\\Generator::onPostInstallCmd"
